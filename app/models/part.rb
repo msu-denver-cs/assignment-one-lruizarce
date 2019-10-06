@@ -1,4 +1,3 @@
 class Part < ApplicationRecord
-  has_many :carpart
-  has_many :cars, through: :carpart
+  has_and_belongs_to_many :cars
 end

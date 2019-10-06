@@ -1,4 +1,4 @@
 class Carpart < ApplicationRecord
-  belongs_to :cars
-  belongs_to :parts
+  belongs_to :car
+  belongs_to :part
 end

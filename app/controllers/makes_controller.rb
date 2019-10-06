@@ -69,6 +69,6 @@ class MakesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def make_params
-      params.require(:make).permit(:name, :country)
+      params.require(:make).permit(:make, :country)
     end
 end

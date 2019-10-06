@@ -1,17 +1,15 @@
 class CarsController < ApplicationController
-  before_action :set_car, only: [:show, :edit, :update, :destroy]
+  before_action :set_car, only: %i[show edit update destroy]
 
   # GET /cars
   # GET /cars.json
   def index
     @cars = Car.all
-    @parts = Part.all
   end
 
   # GET /cars/1
   # GET /cars/1.json
-  def show
-  end
+  def show; end
 
   # GET /cars/new
   def new
@@ -65,6 +63,7 @@ class CarsController < ApplicationController
   end
 
   private
+
   # Use callbacks to share common setup or constraints between actions.
   def set_car
     @car = Car.find(params[:id])
@@ -72,6 +71,6 @@ class CarsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def car_params
-    params.require(:car).permit(:make, :model, :VIN, :make_id, part_ids: [])
+    params.require(:car).permit(:make, :model, :make_ids, :part_ids, VIN: [])
   end
 end
