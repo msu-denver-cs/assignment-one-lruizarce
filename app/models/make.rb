@@ -1,3 +1,4 @@
 class Make < ApplicationRecord
-  has_many :cars
+  belongs_to :car
+  belongs_to :part
 end
