@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9806ec6-4648-4ecc-bcd0-ce22e20c80af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/parts.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/parts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/parts_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/part.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/_part.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/index.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/parts/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191020212219_create_parts.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/parts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/part_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/system/parts_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +50,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1RnxJ8QcWFBR3hIyReKDEkZrIEV" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -186,6 +203,7 @@
       <workItem from="1571552579962" duration="9000" />
       <workItem from="1571604312327" duration="53000" />
       <workItem from="1571604385733" duration="273000" />
+      <workItem from="1571606112357" duration="541000" />
     </task>
     <servers />
   </component>
