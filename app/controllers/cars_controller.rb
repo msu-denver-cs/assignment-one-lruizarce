@@ -1,4 +1,5 @@
 class CarsController < ApplicationController
+  autocomplete :car, :VIN, full_search: true
   before_action :set_car, only: [:show, :edit, :update, :destroy]
 
   # GET /cars
@@ -24,7 +25,7 @@ class CarsController < ApplicationController
   # GET /cars/1/edit
   def edit
     @parts = Part.all
-    @makesl = Make.all
+    @makes = Make.all
   end
 
   # POST /cars
@@ -67,14 +68,19 @@ class CarsController < ApplicationController
     end
   end
 
+  def search
+    @cars = Car.where('VIN like ?', "%#{params[:query]}%")
+    render :index
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_car
-      @car = Car.find(params[:id])
-    end
+  def set_car
+    @car = Car.find(params[:id])
+  end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def car_params
-      params.require(:car).permit(:makes, :model, :VIN, :make_id, :part_ids => [])
-    end
+  def car_params
+    params.require(:car).permit(:car_makes, :car_model, :VIN, :make_id, :part_ids => [])
+  end
 end

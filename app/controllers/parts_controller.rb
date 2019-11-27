@@ -1,4 +1,5 @@
 class PartsController < ApplicationController
+  autocomplete :part, :part, full_search: true
   before_action :set_part, only: [:show, :edit, :update, :destroy]
 
   # GET /parts
@@ -63,14 +64,17 @@ class PartsController < ApplicationController
     end
   end
 
+  def search
+    @parts = Part.where('part like?', "%#{params[:query]}%")
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_part
-      @part = Part.find(params[:id])
-    end
+  def set_part
+    @part = Part.find(params[:id])
+  end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def part_params
-      params.require(:part).permit(:name, :car_ids => [])
-    end
+  def part_params
+    params.require(:part).permit(:name, :car_ids => [])
+  end
 end

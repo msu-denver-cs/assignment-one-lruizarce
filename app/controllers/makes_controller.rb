@@ -1,4 +1,5 @@
 class MakesController < ApplicationController
+  autocomplete :make, :make, full_search: true
   before_action :set_make, only: [:show, :edit, :update, :destroy]
 
   # GET /makes
@@ -59,6 +60,10 @@ class MakesController < ApplicationController
       format.html { redirect_to makes_url, notice: 'Make was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def search
+    @makes + Make.where("make like?", "%#{params[:query]}%")
   end
 
   private

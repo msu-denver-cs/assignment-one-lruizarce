@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9806ec6-4648-4ecc-bcd0-ce22e20c80af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/assignment-one-lruizarce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-lruizarce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car_part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car_part.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +190,7 @@
       <workItem from="1571606112357" duration="4167000" />
       <workItem from="1572326785732" duration="86000" />
       <workItem from="1574808858209" duration="789000" />
-      <workItem from="1574889421628" duration="2060000" />
+      <workItem from="1574889421628" duration="3907000" />
     </task>
     <servers />
   </component>
