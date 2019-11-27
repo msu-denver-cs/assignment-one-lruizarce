@@ -2,66 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9806ec6-4648-4ecc-bcd0-ce22e20c80af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/cars.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/makes.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/parts.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/cars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/makes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/parts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/cars_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/makes_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/parts_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/car_part.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/make.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/part.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/_car.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/cars/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/_make.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/makes/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/_part.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/index.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/parts/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191020215752_create_parts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191020215824_create_makes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191020215900_create_cars.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191020215932_create_car_parts.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/makes_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/car_parts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/cars.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/makes.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/parts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/car_part_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/car_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/make_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/part_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/cars_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/makes_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/system/parts_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assignment-one-lruizarce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-lruizarce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/car_part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car_part.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +65,7 @@
       <module name="assignment-one-lruizarce" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -140,7 +85,7 @@
       <module name="assignment-one-lruizarce" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -243,7 +188,10 @@
       <workItem from="1571552579962" duration="9000" />
       <workItem from="1571604312327" duration="53000" />
       <workItem from="1571604385733" duration="273000" />
-      <workItem from="1571606112357" duration="3015000" />
+      <workItem from="1571606112357" duration="4167000" />
+      <workItem from="1572326785732" duration="86000" />
+      <workItem from="1574808858209" duration="789000" />
+      <workItem from="1574889421628" duration="2060000" />
     </task>
     <servers />
   </component>
@@ -265,5 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/assignment_one_lruizarce@Development__assignment_one_lruizarce.rcov" NAME="Development: assignment-one-lruizarce Coverage Results" MODIFIED="1574811426850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-lruizarce" />
   </component>
 </project>
