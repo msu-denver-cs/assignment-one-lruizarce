@@ -44,6 +44,7 @@
     <index id="18" parent="6" name="sqlite_autoindex_ar_internal_metadata_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>key</ColNames>
+      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="19" parent="6">
@@ -77,9 +78,11 @@
     </column>
     <index id="25" parent="7" name="index_car_parts_on_cars_id">
       <ColNames>cars_id</ColNames>
+      <ColumnCollations></ColumnCollations>
     </index>
     <index id="26" parent="7" name="index_car_parts_on_parts_id">
       <ColNames>parts_id</ColNames>
+      <ColumnCollations></ColumnCollations>
     </index>
     <key id="27" parent="7">
       <ColNames>id</ColNames>
@@ -187,6 +190,7 @@
     <index id="49" parent="11" name="sqlite_autoindex_schema_migrations_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
+      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="50" parent="11">
