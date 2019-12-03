@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feb21706-4ded-4a2b-bfb2-90ac426af0bb" name="Default Changelist" comment="" />
+    <list default="true" id="feb21706-4ded-4a2b-bfb2-90ac426af0bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/models/cars_part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/cars_part.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +168,7 @@
       <workItem from="1575272532743" duration="3652000" />
       <workItem from="1575306206255" duration="420000" />
       <workItem from="1575333591525" duration="714000" />
-      <workItem from="1575335446901" duration="637000" />
+      <workItem from="1575335446901" duration="908000" />
     </task>
     <servers />
   </component>
