@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb21706-4ded-4a2b-bfb2-90ac426af0bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/assignment-one-lruizarce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment-one-lruizarce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/car.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/car.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/make.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/make.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/part.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/cars/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/makes/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/makes/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/parts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8W/8WlbMZ-MH7PDRfMgTNzIBJ5-s2scV6j34DJg4T0ux6U.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8W/8WlbMZ-MH7PDRfMgTNzIBJ5-s2scV6j34DJg4T0ux6U.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ib/IbkmKYmywbWLBrtGFl0wqr6xdJ4iUYAnMATv0LRerE8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ib/IbkmKYmywbWLBrtGFl0wqr6xdJ4iUYAnMATv0LRerE8.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nd/Ndp14I6uOFfdDTzeZEbaPeh8N7mQL5U3ALSaXmpV9z0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Nd/Ndp14I6uOFfdDTzeZEbaPeh8N7mQL5U3ALSaXmpV9z0.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/PI/PINqNzEt849WWfRA4WhSOYbJbOihR-iBZvXaV23y2yw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/PI/PINqNzEt849WWfRA4WhSOYbJbOihR-iBZvXaV23y2yw.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/S_/S_RHno3mlYUXcbJRYwPFYybJ0ixppZHgGM3M3C4ja74.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/S_/S_RHno3mlYUXcbJRYwPFYybJ0ixppZHgGM3M3C4ja74.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WN/WN-itn4hFjvB33SL6q4QhQCiqNEDCZsNkppRAa0eGT4.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WN/WN-itn4hFjvB33SL6q4QhQCiqNEDCZsNkppRAa0eGT4.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XY/XYk9Av-gsYJdX1XlkP-AaCcX6pLHgpqsX7ae0tY2Ong.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XY/XYk9Av-gsYJdX1XlkP-AaCcX6pLHgpqsX7ae0tY2Ong.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hJ/hJWPZPVidskjo_V4U6ARo-6pBxB73GG8YZaW_2IaqGA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hJ/hJWPZPVidskjo_V4U6ARo-6pBxB73GG8YZaW_2IaqGA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iK/iKdR0KByfvgO3bbOLlZ9RSjMyeoSlaxwvWoJn9RmX-0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iK/iKdR0KByfvgO3bbOLlZ9RSjMyeoSlaxwvWoJn9RmX-0.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/p9/P9eSrgAMCawp5ndg2sPEVDV2GFRFCNQ6x3TfpJhK0VY.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/p9/P9eSrgAMCawp5ndg2sPEVDV2GFRFCNQ6x3TfpJhK0VY.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tw/twR1cqiuzQWLYELUygVJTO7t6H3eApPZ5R6K1IB5clk.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tw/twR1cqiuzQWLYELUygVJTO7t6H3eApPZ5R6K1IB5clk.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment-two-lruizarce-master" />
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
@@ -191,6 +167,7 @@
       <workItem from="1575265723958" duration="5154000" />
       <workItem from="1575272532743" duration="3652000" />
       <workItem from="1575306206255" duration="420000" />
+      <workItem from="1575333591525" duration="714000" />
     </task>
     <servers />
   </component>
@@ -205,6 +182,10 @@
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="0" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1575265758336" />
+    <state x="198" y="295" key="FileChooserDialogImpl" timestamp="1575334304195">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="198" y="295" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1575334304195" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment_one_lruizarce@Development__assignment_one_lruizarce.rcov" NAME="Development: assignment-one-lruizarce Coverage Results" MODIFIED="1575069304418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-lruizarce" />
