@@ -1,8 +1,15 @@
 <p id="notice"><%= notice %></p>
 
+
+
 <p>
   <strong>Make:</strong>
-  <%= @car.make %>
+  <%= @car.make.name %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @car.make.country %>
 </p>
 
 <p>
@@ -16,8 +23,10 @@
 </p>
 
 <p>
-  <strong>Make:</strong>
-  <%= @car.make %>
+  <strong>Part:</strong>
+  <% @car.parts.each do |part| %>
+  <li><%= part.name  %></li>
+<% end %>
 </p>
 
 <%= link_to 'Edit', edit_car_path(@car) %> |

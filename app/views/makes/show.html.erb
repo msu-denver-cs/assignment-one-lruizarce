@@ -10,5 +10,11 @@
   <%= @make.country %>
 </p>
 
+<ol>
+  <% @make.cars.each do |car| %>
+    <li><%= car.name %>
+  <% end %>
+</ol>
+
 <%= link_to 'Edit', edit_make_path(@make) %> |
 <%= link_to 'Back', makes_path %>
