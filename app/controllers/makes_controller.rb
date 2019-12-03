@@ -7,6 +7,11 @@ class MakesController < ApplicationController
     @makes = Make.all
   end
 
+  def search
+    @makes = Make.where("name like?", "%#{params[:query]}%")
+    render :index
+  end
+
   # GET /makes/1
   # GET /makes/1.json
   def show

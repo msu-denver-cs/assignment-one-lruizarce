@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb21706-4ded-4a2b-bfb2-90ac426af0bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models/cars_part.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/cars_part.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/makes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/makes/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/parts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/parts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/makes_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/makes_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +178,8 @@
       <workItem from="1575272532743" duration="3652000" />
       <workItem from="1575306206255" duration="420000" />
       <workItem from="1575333591525" duration="714000" />
-      <workItem from="1575335446901" duration="908000" />
+      <workItem from="1575335446901" duration="3222000" />
+      <workItem from="1575395548451" duration="763000" />
     </task>
     <servers />
   </component>
@@ -183,10 +194,10 @@
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="0" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1575265758336" />
-    <state x="198" y="295" key="FileChooserDialogImpl" timestamp="1575335866048">
+    <state x="198" y="295" key="FileChooserDialogImpl" timestamp="1575395667046">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state x="198" y="295" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1575335866048" />
+    <state x="198" y="295" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1575395667046" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment_one_lruizarce@Development__assignment_one_lruizarce.rcov" NAME="Development: assignment-one-lruizarce Coverage Results" MODIFIED="1575069304418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="assignment-one-lruizarce" />

@@ -5,6 +5,10 @@ class PartsControllerTest < ActionDispatch::IntegrationTest
     @part = parts(:one)
   end
 
+  test "blank" do
+    assert Part.where("name like ?", "Example").length == 0
+  end
+
   test "should get index" do
     get parts_url
     assert_response :success

@@ -7,6 +7,11 @@ class PartsController < ApplicationController
     @parts = Part.all
   end
 
+  def search
+    @parts = Part.where("name like ?", "%#{params[:query]}%")
+    render :index
+  end
+
   # GET /parts/1
   # GET /parts/1.json
   def show

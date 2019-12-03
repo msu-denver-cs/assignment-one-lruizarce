@@ -2,6 +2,12 @@
 
 <h1>Makes</h1>
 
+<%= form_tag(search_makes_url, method: "get") do %>
+  <%= label_tag(:query, "Search for:") %>
+  <%= text_field_tag(:query) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
 <table>
   <thead>
     <tr>

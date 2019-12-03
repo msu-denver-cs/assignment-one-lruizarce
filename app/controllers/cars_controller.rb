@@ -7,6 +7,11 @@ class CarsController < ApplicationController
     @cars = Car.all
   end
 
+  def search
+    @cars = Car.where("name like ?", "%#{params[:query]}%")
+    render :index
+  end
+
   # GET /cars/1
   # GET /cars/1.json
   def show
